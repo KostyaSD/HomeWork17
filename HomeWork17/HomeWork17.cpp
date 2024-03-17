@@ -29,6 +29,7 @@ public:
 		this->y = y;
 		this->z = z;
 	}
+
 	double VectorLenght() 
 	{
 		return sqrt(x * x + y * y + z * z); // |A| = V(Ax^2 + Ay^2 + Az^2)
